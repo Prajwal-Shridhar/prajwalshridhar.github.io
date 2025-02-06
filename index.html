@@ -259,13 +259,21 @@
 </section>
 
 <!-- Footer Section Start -->
-<footer>
+<!-- <footer>
   <div class="text">
     <span> Created By Prajwal Shridhar | &#169; <script>document.write(new Date().getFullYear())</script> All Rights Reserved</span>
   </div>
 </footer>
 
   <script src="script.js"></script>
+</body> -->
+  <footer>
+        <p>&copy; <span id="copyright-year"></span> Your Company Name. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('copyright-year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
 
